@@ -1,0 +1,163 @@
+/* Global variable  */
+:root {
+  --black: rgb(58, 58, 58);
+  --darkPurpleColor: #8946A6;
+  --purpleColor: #8c55a3;
+  --lightPurpleColor: #EA99D5;
+  --fadePurpleColor: #FFCDDD;
+}
+
+/* Navbar Css */
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+#alert{
+  background-color: rgb(178, 238, 178);
+  color: rgb(0, 95, 0);
+  margin: 0;
+}
+#alert p{
+  margin: 0;
+  font-weight: 400;
+  margin-left: 0.6rem;
+  padding: 3px;
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbarList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 3.2rem;
+  background-color: var(--darkPurpleColor);
+  font-size: 1.2rem;
+  text-align: center;
+  justify-content: center;
+}
+
+li{
+  float: left;
+}
+li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 11px 15px;
+  color: rgb(245, 245, 245);
+}
+
+li a img{
+  margin: -8px;
+  margin-top: -7px;
+}
+
+li a:hover {
+  color: white;
+  font-size: 1.25rem;
+}
+
+li a:focus{
+  color: white;
+}
+
+
+/* Page Content  */
+.container{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.container h1{
+  font-size: 3rem;
+  margin: .8rem;
+  margin-top: 0;
+  font-weight: 500;
+}
+.container textarea{
+  resize: none;
+  justify-content: center;
+  width: 80%;
+  height: 35vh;
+  padding: 4px 8px;
+  font-size: large;
+  font-weight: lighter;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+/* button css  */
+.btn{
+  position: relative;
+  width: 100%;
+  margin: 0.2rem;
+  margin-left: 7.8rem;
+}
+.btns{
+  font-size: 1.1rem;
+  margin: 2px 4px;
+  padding: 10px 15px;
+  background-color: var(--purpleColor);
+  border-radius: 6px;
+  box-shadow: none;
+  border: .5px solid rgb(27, 27, 27);
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+.btns:hover{
+  background-color: var(--darkPurpleColor);
+}
+.btns:active{
+  box-shadow: 3px 4px #8c53a7b4;
+}
+
+/* container 2  */
+.container2{
+  position: relative;
+  margin: 0;
+  margin-left: 8rem;
+}
+.container2 p{
+  margin: 0.2rem 0rem;
+  width: 90%;
+}
+.container2 h2{
+  margin: 0;
+  font-weight: 500;
+}
+.container2 h4{
+  margin: 0;
+  font-weight: 500;
+
+}
+
+/* About section css  */
+.accordian{
+  margin: 0rem 1rem;
+  padding: 3px 4px;
+}
+.accordian p{
+  color: rgb(42, 42, 42);
+  font-size: 1.08rem;
+  margin: .4rem;
+}
+.accordian h3{
+  color: rgb(32, 32, 32);
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center; /*align vertical*/
+  margin-bottom: 0;
+}
