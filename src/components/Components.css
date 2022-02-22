@@ -7,6 +7,11 @@
   --fadePurpleColor: #FFCDDD;
 }
 
+/* * {
+  outline: solid 1px red;
+} */
+
+
 /* Navbar Css */
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -101,7 +106,7 @@ li a:focus{
 /* button css  */
 .btn{
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   margin: 0.2rem;
   margin-left: 7.8rem;
 }
@@ -160,4 +165,38 @@ li a:focus{
   display: flex;
   align-items: center; /*align vertical*/
   margin-bottom: 0;
+}
+
+/* Media queries  */
+
+@media screen and (max-width: 480px) {
+  .container h1{
+    font-size: 1.4rem;
+  }
+
+  .btn{
+    margin-left: 1.5rem;
+  }
+  .btns{
+    font-size: .8rem;
+    margin: 2px 4px;
+    padding: 6px 8px;
+  }
+
+  .container2{
+    margin: 0;
+    margin-left: 1.5rem;
+  }
+
+  .container2 h2{
+    margin: 0;
+    font-size: large;
+  }
+  .container2 p{
+    font-size: smaller;
+  }
+  .container2 h4{
+    font-size: large;
+  
+  }
 }
