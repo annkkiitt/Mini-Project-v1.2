@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Mini-Project-v1.2/static/css/main.e04d7e80.css",
+    "main.js": "/Mini-Project-v1.2/static/js/main.612df518.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Mini-Project-v1.2/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.png": "/Mini-Project-v1.2/static/media/logo.4f9e84a4d1509b80d9ff.png",
+    "static/media/gear.svg": "/Mini-Project-v1.2/static/media/gear.32fc07d1767741ef67c4b21cca5e76ec.svg",
+    "static/media/globe.svg": "/Mini-Project-v1.2/static/media/globe.10149522974234b511e1d23f04caf37e.svg",
+    "index.html": "/Mini-Project-v1.2/index.html",
+    "static/media/user.svg": "/Mini-Project-v1.2/static/media/user.da0d0faf0aa3037232e7def90a8f44fb.svg",
+    "main.e04d7e80.css.map": "/Mini-Project-v1.2/static/css/main.e04d7e80.css.map",
+    "main.612df518.js.map": "/Mini-Project-v1.2/static/js/main.612df518.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Mini-Project-v1.2/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e04d7e80.css",
+    "static/js/main.612df518.js"
+  ]
+}
